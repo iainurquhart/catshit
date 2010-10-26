@@ -17,14 +17,17 @@ class Catshit_acc {
 		$this->sections[] = '<script type="text/javascript" charset="utf-8">$("#accessoryTabs a.catshit").parent().remove();</script>';
 		
 		// RAGE.
-		
 		$EE->cp->add_to_head('
 		<script type="text/javascript">
 		
 			$(document).ready(function(){
 				$("input#cat_image").live("click", function() {
+					$.ee_filebrowser.add_trigger("input#cat_image", function (a) {
+							
+	
 							var full_url = EE.upload_directories[a.directory].url + a.name;
 							relative_url = full_url.replace(/http:\/\/[^\/]+/i,""); 
+							
 							$("input#cat_image" + window.file_manager_context).val(relative_url)
 					});
 				});
