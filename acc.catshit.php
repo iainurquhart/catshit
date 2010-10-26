@@ -21,7 +21,7 @@ class Catshit_acc {
 		<script type="text/javascript">
 		
 			$(document).ready(function(){
-				$("input#cat_image").live("click", function() {
+				$(".ui-widget input#cat_image").live("click", function() {
 					$.ee_filebrowser.add_trigger("input#cat_image", function (a) {
 							
 	
