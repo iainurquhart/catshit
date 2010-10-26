@@ -16,4 +16,7 @@ Download the accessory and rename the download folder to `catshit`
 
 Insert the `catshit` folder to your `system/third_party` folder and activate the accessory.
 
-The function it gives is ONLY available when editing categories on the publish page, simply double click the `Image Category` field and up will pop the file manager. et voila.
+
+### Usage
+
+The function it gives is **ONLY** available when editing categories on the publish page, simply double click the `Image Category` field and up will pop the file manager. et voila.
